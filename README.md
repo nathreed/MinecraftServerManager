@@ -5,7 +5,7 @@ A set of python and shell scripts for controlling a minecraft server based on co
 1. Clone the repo and place a Minecraft server jar in the folder.
 2. Install GNU screen if you don't already have it (on debian/ubuntu: ```sudo apt-get install screen```)
 2. Open `gamemode.py` and change the variable ```serverFolderPath``` to the absolute path of the directory you are running the server in.
-3. Change ```player1```, ```player2```, and ```player3``` variables inside the while loop. Change the password strings as well.
+3. Change ```player1```, ```player2```, and ```player3``` variables inside the while loop to the usernames of the 3 players you will be using.
 4. If you would like to give an amount of RAM other than 3GB to the Minecraft server, edit ```start.sh``` and change the memory allocation in the section marked "Start MinecraftServer".
 5. Make start.sh executable and run it. A Minecraft Server gui should appear shortly. You can also access the server console by typing ```screen -r MinecraftServer```  
 
