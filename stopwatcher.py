@@ -5,7 +5,7 @@ import time
 
 #Config options
 #Path to the server folder
-serverFolderPath = "/home/nathan/Desktop/TestScreenServer"
+serverFolderPath = "/path/to/server/folder/here"
 #Path to the log
 serverLogPath = serverFolderPath + "/logs/latest.log"
 
